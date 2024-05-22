@@ -3,19 +3,28 @@
     flex-wrap: wrap;
 }
 
+.Nav {
+    width: 100%;
+    border: 1px solid black;
+    font-size: 40px;
+    text-align: center;
+    background-color: bisque;
+}
+
 .card {
-    width: 500px;
-    background-color: cadetblue;
-    border: 5px ridge black;
+    width: 150px;
+    background-color: rgb(236, 217, 203);
+    border: 3px solid rgb(231, 222, 222);
     padding: 10px;
     margin: 10px;
-    color: brown;
-    font-size: 20px;
+    color: black;
+    font-size: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
 }
 
 .card:nth-child(2n) {
-    background-color: antiquewhite;
+    background-color: rgb(211, 163, 124);
 }
 
 .Image {
@@ -26,5 +35,12 @@
 }
 
 .card:hover {
-    background-color: chartreuse;
+    background-color: rgb(201, 130, 176);
+}
+
+input {
+    margin: 10px 30%;
+    height: 30px;
+    background-color: antiquewhite;
+    color: Black;
 }

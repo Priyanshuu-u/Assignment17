@@ -17,9 +17,13 @@ function Products() {
   }, []);
 
   return (
+    <>
+    <div className='Nav'> ASSIGNMENT </div>
+    
     <div className='outer'>
       {
         products.map((product) => (
+         
           <div key={product.id} className="card">
             <h2>Product Title: {product.title}</h2>
             Product Thumbnail: <br /> <img src={product.thumbnail} className='Image' /> 
@@ -32,6 +36,7 @@ function Products() {
       
       }
     </div>
+    </>
   );
 }
 
